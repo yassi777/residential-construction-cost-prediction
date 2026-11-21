@@ -18,6 +18,8 @@ A secondary objective is to identify which project characteristics contribute mo
 
 The project uses the **Residential Building dataset from the UCI Machine Learning Repository**, containing 372 residential construction projects.
 
+Dataset source: **UCI Machine Learning Repository – Residential Building Data Set**
+
 The data includes:
 
 - project locality
@@ -104,7 +106,21 @@ This confirms that the variable contains substantial predictive information whil
 - Some high-cost projects are underestimated.
 - The dataset represents a specific geographic and economic context.
 - The model should be considered a decision-support tool rather than a replacement for professional cost estimation.
+## How to Run
 
+1. Download the Residential Building dataset from the UCI Machine Learning Repository.
+2. Download the ZIP file containing the dataset.
+3. Open the notebook in Google Colab.
+4. Upload the dataset ZIP file to the Colab runtime.
+5. Run all cells from top to bottom.
+
+The notebook performs data preparation, feature selection, preprocessing, model training, cross-validation, future-holdout evaluation, feature-importance analysis, and robustness testing.
+
+## Reproducibility
+
+The analysis uses a fixed random seed where applicable to make model evaluation reproducible.
+
+The strict future holdout is based on project start year, with earlier projects used for training and later projects reserved for final evaluation.
 ## Conclusion
 
 The results suggest that machine learning can provide useful support for early-stage residential construction cost forecasting.
