@@ -1,7 +1,9 @@
 # Residential Construction Cost Prediction
 
 A time-aware and explainable machine learning study for predicting residential construction costs using information available at the beginning of a project.
+## Quick Links
 
+- [View the Full Jupyter Notebook](Residential_Construction_Cost_Prediction_Yasaman_Sharif.ipynb)
 ## Project Overview
 
 This project investigates whether machine learning can be used to predict the final construction cost of residential projects using only information that could reasonably be available at the beginning of construction.
